@@ -17,6 +17,7 @@ module nfts::nfts {
     public struct NFT has key, store {
         id: UID,
         name: String,
+        
         description: String,
         url: Url,
         attributes: Attributes,
