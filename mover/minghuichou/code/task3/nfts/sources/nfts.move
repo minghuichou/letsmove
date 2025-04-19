@@ -14,6 +14,8 @@ module nfts::nfts {
     /// 可用于创建后授权其他操作。至关重要的是，这个结构体不能随意提供给任何合约，因为它充当了授权令牌。
     public struct Witness has drop {}
 
+
+
     public struct NFT has key, store {
         id: UID,
         name: String,
